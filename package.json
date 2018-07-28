@@ -1,0 +1,16 @@
+{
+  "name": "mmm-google-cloud-speech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MMM-Google-Cloud-Speech.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm rebuild --runtime=electron --target=2.0.2 --disturl=https://atom.io/download/atom-shell --build-from-source"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/speech": "^2.0.0",
+    "node-record-lpcm16": "^0.3.0"
+  }
+}
